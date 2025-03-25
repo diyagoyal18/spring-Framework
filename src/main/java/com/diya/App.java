@@ -15,5 +15,8 @@ public class App
         dev obj = (dev) context.getBean("dev"); // This is the bean that we are trying to get from the container
         // dev obj= new dev();
          obj.build();
+            obj.setAge(19);
+            System.out.println(obj.getAge());
+
     }
 }
