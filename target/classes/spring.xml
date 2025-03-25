@@ -7,4 +7,7 @@
 
     <bean id="dev" class="com.diya.dev">
     </bean>
+    <bean id="laptop" class="com.diya.laptop">
+    </bean> 
+    <!-- number of beans = number of objects created -->
 </beans>
