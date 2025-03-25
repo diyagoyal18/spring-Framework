@@ -19,9 +19,13 @@ public class dev {
     // public void setAge(int age) {
     //     this.age = age;
     // }
-    public dev(int age){
-        this.age=age;
-        System.out.println("dev 1 constructor");
+    // public dev(int age){
+    //     this.age=age;
+    //     System.out.println("dev 1 constructor");
+    // }
+    public dev(laptop laptop){
+        this.laptop=laptop;
+        System.out.println("dev 2 constructor");
     }
     public void build(){
         System.out.println("Building the project");

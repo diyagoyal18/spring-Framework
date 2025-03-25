@@ -7,8 +7,10 @@
 
     <bean id="dev" class="com.diya.dev">
     <!-- <property name="age" value="20"></property> property tag is used to set the value of the property - SETTER INJECTION-->
-    <property name="laptop" ref="lap1"/><!-- ref tag is used to refer to another bean -->
-    <constructor-arg value="20"></constructor-arg> <!-- constructor-arg tag is used to set the value of the constructor argument- CONSTRUCTOR INJECTION -->
+    <!-- <property name="laptop" ref="lap1"/>ref tag is used to refer to another bean -->
+    <!-- <constructor-arg value="20"></constructor-arg> constructor-arg tag is used to set the value of the constructor argument- CONSTRUCTOR INJECTION -->
+
+    <constructor-arg ref="lap1"></constructor-arg> <!-- constructor-arg tag is used to set the value of the constructor argument- CONSTRUCTOR INJECTION -->
     </bean>
     <bean id="lap1" class="com.diya.laptop">
     </bean> 
